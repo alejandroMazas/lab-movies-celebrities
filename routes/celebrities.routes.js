@@ -17,7 +17,7 @@ router.post('/create', (req, res) => {
     Celebrity
         .create({ name, photo, ocupation, catchPhrase })
         .then(newCelebrity => {
-            res.render('/celebrities/celebrities')
+            res.redirect('/celebrities')
         })
         .catch(error => res.redirect('/celebrities/create'))
 })
@@ -29,7 +29,7 @@ router.get('/', (req, res) => {
     Celebrity
         .find()
         .then(celebrities => {
-            res.render('/celebrities/celebrities', { celebrities })
+            res.render('celebrities/celebrities', { celebrities })
         })
         .catch(err => res.redirect('celebrities/new-celebrity'))
 })

@@ -1,1 +1,18 @@
 <h2>Celebrities list</h2>
+
+<div class="container">
+
+    <div class="row">
+
+        {{#each celebrities}}
+        <div class="col-md-3">
+            <figure>
+                <img class="celebrityPhoto" src="../../images/{{photo}}.jpg" alt="{{name}} photo">
+            </figure>
+            <h3>{{name}}<h3>
+        </div>
+        {{/each}}
+
+    </div>
+
+</div>

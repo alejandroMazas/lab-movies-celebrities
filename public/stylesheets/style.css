@@ -1,8 +1,29 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00b7ff;
+}
+
+h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  bottom: 0;
+  text-align: center;
+}
+
+.celebrityPhoto {
+  width: 200px;
+  height: 200px;
+
+  object-fit: cover;
+
 }

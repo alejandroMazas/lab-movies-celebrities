@@ -7,6 +7,32 @@ h2 {
   margin-bottom: 30px;
 }
 
+.background {
+  background-image: url(/images/cine.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+}
+
+.naming {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: absolute;
+  font-size: 4em;
+  font-weight: bold;
+  margin: 50px;
+  color: rgb(255, 255, 255)
+}
+
+.slogan {
+  width: 600px;
+  position: absolute;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 50px;
+  margin-top: 110px;
+  color: rgb(255, 255, 255)
+}
+
 footer {
   background-color: black;
   color: white;
@@ -16,10 +42,19 @@ footer {
   text-align: center;
 }
 
-.celebrityPhoto {
-  width: 200px;
-  height: 200px;
+.card {
+  margin-right: 20px;
+  margin-bottom: 50px;
+}
+
+.card-img-top {
+  width: 70%px;
+  height: 250px;
   object-fit: cover;
+}
+
+.catchPhrase {
+  font-size: 1em;
 }
 
 .anonymous {
@@ -27,4 +62,5 @@ footer {
   height: 555px;
   object-fit: cover;
   margin: 30px;
+  margin-left: 80px;
 }

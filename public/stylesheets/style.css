@@ -2,10 +2,6 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-a {
-  color: #00b7ff;
-}
-
 h2 {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -23,7 +19,12 @@ footer {
 .celebrityPhoto {
   width: 200px;
   height: 200px;
-
   object-fit: cover;
+}
 
+.anonymous {
+  width: 440px;
+  height: 555px;
+  object-fit: cover;
+  margin: 30px;
 }
